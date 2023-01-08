@@ -46,7 +46,7 @@ jobs:
         apiKey: ${{ secrets.CONTRAST_API_KEY }}
         orgId: ${{ secrets.CONTRAST_ORGANIZATION_ID }}
         authHeader: ${{ secrets.CONTRAST_AUTH_HEADER }}
-        apiUrl: https://eval.contrastsecurity.com/
+        apiUrl: https://eval.contrastsecurity.com
     - name: Add Secure Code Warrior contextual training to SARIF
         # You may pin to the exact commit or the version.
         # uses: SecureCodeWarrior/github-action-add-sarif-contextual-training@b11b7dee40de861daa61af5095eb6077d57716c0
